@@ -1,1 +1,1 @@
-v3.0.68: CosmeticsPreview3D komplett aus Boot-Scene rausgenommen, alle Awake-Arbeit in deferred Coroutine verlagert. Boot-Scene hat nur noch 6 statt 7 Komponenten. Main-Thread blockiert nicht mehr 5+ Sekunden beim Boot.
+v3.0.69: ANR-Freeze endgueltig behoben. MainMenuUI in Boot-Scene gepackt, kein LoadSceneAsync mehr beim Boot.
