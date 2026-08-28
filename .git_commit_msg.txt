@@ -1,1 +1,1 @@
-v3.0.71: Input System Fix + Alt+Tab Fix (Discord-RPC disconnect/reconnect bei Focus-Change).
+v3.0.72: Discord-Writes in Background-Thread + Hat-Rebuild deferred. Main-Thread blockiert nirgendswo mehr.
