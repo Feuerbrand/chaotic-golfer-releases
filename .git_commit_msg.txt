@@ -1,1 +1,1 @@
-v3.0.70: Discord-RPC-Connect um 3 Sekunden deferred, Main-Thread blockiert nicht mehr in pipe.Write/Flush.
+v3.0.71: Input System Fix + Alt+Tab Fix (Discord-RPC disconnect/reconnect bei Focus-Change).
