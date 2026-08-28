@@ -1,1 +1,1 @@
-v3.0.69: ANR-Freeze endgueltig behoben. MainMenuUI in Boot-Scene gepackt, kein LoadSceneAsync mehr beim Boot.
+v3.0.70: Discord-RPC-Connect um 3 Sekunden deferred, Main-Thread blockiert nicht mehr in pipe.Write/Flush.
