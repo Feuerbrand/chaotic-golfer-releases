@@ -1,1 +1,1 @@
-v3.0.72: Discord-Writes in Background-Thread + Hat-Rebuild deferred. Main-Thread blockiert nirgendswo mehr.
+v3.0.73: Beenden-Freeze gefixt - DiscordRpcManager.OnDisable() ruft kein SendClose mehr, keine Thread-Joins.
