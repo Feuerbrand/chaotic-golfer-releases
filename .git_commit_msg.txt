@@ -1,1 +1,0 @@
-v3.0.75: Launcher-Restart zuverlaessig in OnApplicationQuit.
