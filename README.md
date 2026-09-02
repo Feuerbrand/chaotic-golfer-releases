@@ -2,14 +2,30 @@
 
 **Bauen. Schlagen. Eskalieren.**
 
-Dieses Repository enthält ausschließlich die offiziellen Windows-Builds von Chaotic Golfer. Der Quellcode ist nicht Teil dieses öffentlichen Download-Kanals.
+Dieses Repository enthaelt ausschliesslich die offiziellen Windows-Builds
+von Chaotic Golfer. Der Quellcode ist nicht Teil dieses oeffentlichen
+Download-Kanals.
+
+## Aktuelle Version: 7.0.1
+
+Release: https://github.com/Feuerbrand/chaotic-golfer-releases/releases/latest
 
 ## Installation
 
-1. Öffne das [neueste Release](https://github.com/Feuerbrand/chaotic-golfer-releases/releases/latest).
-2. Lade `ChaoticGolfer-Setup-vX.Y.Z.exe` herunter.
-3. Starte den Installer. Danach findest du nur noch **Chaotic Golfer** auf deinem Desktop.
+1. Oeffne das [neueste Release](https://github.com/Feuerbrand/chaotic-golfer-releases/releases/latest).
+2. Lade `ChaoticGolferLauncher.exe` herunter (Lila-Launcher, ~68 MB).
+3. Doppelklick auf den Launcher. Er liest `installed-version.txt`, holt
+   das passende Spiel-Paket (7.0.1) vom Repo, entpackt es nach
+   `%LOCALAPPDATA%\Programs\ChaoticGolfer` und startet das Spiel.
 
-Das Spiel wird pro Benutzer unter `%LOCALAPPDATA%\Programs\ChaoticGolfer` installiert. Der mitgelieferte Launcher prüft beim Start automatisch auf neue Versionen, validiert deren SHA-256-Prüfsumme und kann bei einem fehlgeschlagenen Update zur vorherigen Installation zurückkehren.
+Das Spiel wird pro Benutzer unter `%LOCALAPPDATA%\Programs\ChaoticGolfer`
+installiert - ohne Administratorrechte, ohne Registry-Eintrag, ohne
+externen Installer. Der Lila-Launcher (Version 2.6.0) prueft beim Start
+automatisch auf neue Versionen und validiert deren SHA-256-Pruefsumme.
 
-> Windows SmartScreen kann bei neuen, noch nicht code-signierten Builds eine Warnung anzeigen. Lade den Installer ausschließlich von dieser Release-Seite.
+Updates passieren ohne weiteren Download: einfach den Lila-Launcher
+starten, er holt das neue Spiel-Paket automatisch.
+
+> Windows SmartScreen kann bei neuen, noch nicht code-signierten Builds
+> eine Warnung anzeigen. Lade den Launcher ausschliesslich von dieser
+> Release-Seite.
