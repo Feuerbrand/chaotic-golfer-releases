@@ -9,6 +9,12 @@
                        "browser_download_url":  "https://github.com/Feuerbrand/chaotic-golfer-releases/releases/download/v8.2.5/ChaoticGolfer-v8.2.5-Windows-x64.zip",
                        "size":  44063671,
                        "digest":  "sha256:8a3d95366f52b37f9efd633736b1a86d376a52b7f313ccc3ca1e76b02cba5410"
+                   },
+                   {
+                       "name":  "ChaoticGolferLauncher-v2.7.0-Windows-x64.exe",
+                       "browser_download_url":  "https://github.com/Feuerbrand/chaotic-golfer-releases/releases/download/v8.2.5/ChaoticGolferLauncher-v2.7.0-Windows-x64.exe",
+                       "size":  72067801,
+                       "digest":  "sha256:d56517c73e9905b004308889154293183196689ac869771889861264417ea4d9"
                    }
                ]
 }
