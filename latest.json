@@ -1,0 +1,14 @@
+﻿{
+    "tag_name":  "v8.2.5",
+    "html_url":  "https://github.com/Feuerbrand/chaotic-golfer-releases/releases/tag/v8.2.5",
+    "name":  "Chaotic Golfer v8.2.5",
+    "body":  "## Förderband ist raus\nAuf Wunsch komplett entfernt — Bauteil, Skript, Kartenbild, Materialien, Katalogeintrag.\n\n## Katapult reagiert jetzt auf deinen Schlag\nVorher war die Flugbahn immer gleich, egal wie fest du geschlagen hast. Jetzt zählt das Tempo, mit dem du reinkommst:\n\n| Einschlag | Landung |\n|---|---|\n| 6 m/s | auf der Plattform |\n| 8 m/s | über das Modul hinaus |\n| 11 m/s | deutlich weiter |\n\nEin zu schwacher Schlag schafft die Lücke nicht — Absicht. Nach oben gedeckelt, damit ein Volltreffer die Kugel nicht über die halbe Karte schießt.\n\n## Hängenbleiben an der Bande\nDeine Vermutung stimmte, es lag am Modell: Der Wand-Kollider endete **exakt auf Fahrbahnhöhe**, Boden und Wand teilten sich also eine gemeinsame Kante genau dort, wo die Kugel entlangrollt. An solchen Innenkanten liefert die Physik gelegentlich eine Normale nach hinten statt zur Seite — die Kugel bleibt scheinbar grundlos hängen.\n\nDer Wandfuß steckt jetzt 6 cm tief im Deck. Sichtbar ändert sich nichts.\n\n## Falltür: endloses Durchfallen\nDer Rücksetzpunkt wurde auch auf einem geschlossenen Lukenflügel gemerkt. Wer durchfiel, landete genau dort — die Luke stand aber noch offen, also fiel man sofort wieder durch. Und wieder. Die Flügel gelten jetzt nicht mehr als sicherer Boden.\n\n## Auseinandergedrückt beim Rundenstart\nSeit dem Ball-Rempeln haben die Bälle der Mitspieler echte Collider — und zu Rundenbeginn stehen alle auf demselben Abschlag. Die Collider sind jetzt aus, bis du zum ersten Mal geschlagen hast.\n\n## Technisch\nEditMode 106/106, PlayMode 10/11 (unverändert; die Ausnahme bleibt der seit v8.1.4 bestehende Looping-Bug).",
+    "assets":  [
+                   {
+                       "name":  "ChaoticGolfer-v8.2.5-Windows-x64.zip",
+                       "browser_download_url":  "https://github.com/Feuerbrand/chaotic-golfer-releases/releases/download/v8.2.5/ChaoticGolfer-v8.2.5-Windows-x64.zip",
+                       "size":  44063671,
+                       "digest":  "sha256:8a3d95366f52b37f9efd633736b1a86d376a52b7f313ccc3ca1e76b02cba5410"
+                   }
+               ]
+}
